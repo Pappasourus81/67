@@ -138,19 +138,19 @@
     <div class="stage" id="stage">
       <div class="content">
         <div class="card">
-          <h1>Wobble Mode: ON</h1>
+          <h1>6-7 Mode: ON</h1>
           <p>
             Everything inside this embed is wobbling slowly and strongly.
             If you’re using this as an “effect page”, replace this card with your activity/game.
           </p>
 
           <div class="btnRow">
-            <button id="toggleBtn">DISABLE WOBBLE</button>
+            <button id="toggleBtn">DISABLE 6-7</button>
             <button class="secondary" id="intensifyBtn">MAKE IT EVEN STRONGER</button>
           </div>
 
           <div class="note">
-            Tip: If this makes students dizzy, keep the button visible. Also: Google Sites can only wobble the embed area, not the whole parent page.
+           Happy 6-7!
           </div>
         </div>
       </div>
@@ -171,8 +171,8 @@
     toggleBtn.addEventListener("click", () => {
       wobbleOn = !wobbleOn;
       root.classList.toggle("off", !wobbleOn);
-      toggleBtn.textContent = wobbleOn ? "DISABLE WOBBLE" : "ENABLE WOBBLE";
-      document.querySelector("h1").textContent = wobbleOn ? "Wobble Mode: ON" : "Wobble Mode: OFF";
+      toggleBtn.textContent = wobbleOn ? "DISABLE 6-7" : "ENABLE 6-7";
+      document.querySelector("h1").textContent = wobbleOn ? "6-7 Mode: ON" : "6-7 Mode: OFF";
     });
 
     intensifyBtn.addEventListener("click", () => {
